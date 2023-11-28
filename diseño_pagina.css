@@ -1,5 +1,27 @@
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+*{
+   
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
+/* START NAVBAR */
+
+.navbar_header{
+    height: 83px;
+    width: 100%;
+    background-color: black;
+}
+.navbar_header .navbar_nav{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_container-links{
+    background-color: brown;
+    height: fit-content;
+
+}
+
