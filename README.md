@@ -1,3 +1,4 @@
 # proyecto_pagina
 Proyecto Landing Page responsiva (HTML y CSS)
-hola soy morgan
+Nombre: Gabriela Borja
+Fecha: 04/12/2023 
