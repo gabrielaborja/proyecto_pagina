@@ -1,8 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 *{
    
     padding: 0%;
     margin: 0%;
-    box-sizing: border-box;
+ box-sizing: border-box;
+ font-family: 'Cabin';
 }
 /* START NAVBAR */
 
@@ -10,18 +14,31 @@
     height: 83px;
     width: 100%;
     background-color: black;
+    padding: 1% 1% 1% 1%;
+    background-color: rgb(0 0 0 / 50%);
+    align-items: center;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+    height: auto;
 }
 .navbar_header .navbar_nav{
     height: 100%;
     display: flex;
     flex-direction: row;
-
     justify-content: space-between;
     align-items: center;
 }
-.nav_container-links{
-    background-color: brown;
-    height: fit-content;
-
+.logo{
+    width: 266px;
+    height: 25px;
+    flex-shrink: 0;
 }
+.navbar_header .nav_container-links a {
+
+    height: fit-content;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
+/* Trabajar sobre los enlaces*/
 
