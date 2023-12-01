@@ -19,6 +19,7 @@
     /*align-items: center;*/
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
     height: auto;
+    position: fixed;
     
 }
 .navbar_header .navbar_nav{
@@ -55,6 +56,8 @@
 .Real_Estate_section{
     background-image: url('./img/fondo_principal.png');
     background-position: center center;
+    background-size: cover;
+
 
 }
 .Real_Estate_section .Real_Estate_container-text{
