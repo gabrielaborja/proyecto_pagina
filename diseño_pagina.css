@@ -87,6 +87,23 @@
     line-height: 70px;
 
 }
+.redes_sociales_vertical{
+    position: absolute;
+    z-index: 999;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.redes_sociales_vertical .linea_vertical{
+    width:18px;
+    height:18px;
+
+}
+.redes_sociales_vertical p{
+    transform: rotate(90deg);
+    color: #FFF;
+   
+}
 /* Trabajar sobre los enlaces*/
 
 /*background-image: url('./img/fondo_principal.png');
