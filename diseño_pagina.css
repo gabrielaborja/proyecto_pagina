@@ -47,11 +47,17 @@
 .Real_Estate_section{
     height: 1920px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     background-color: aqua;
 
 }
 .Real_Estate_section .Real_Estate_container-text{
-    
+    width: 746px;
+    height: 99px;
+    padding: 683px 106px 1068px 268px ;
+
 }
 
 /* Trabajar sobre los enlaces*/
