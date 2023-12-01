@@ -45,16 +45,17 @@
 
 /* INICIO IMAGEN DE FONDO PRINCIPAL*/
 .Real_Estate_section{
-    height: 1920px;
+    height: 1000px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: aqua;
 
 }
 .Real_Estate_section{
-    background-image: url();
+    background-image: url('./img/fondo_principal.png');
+    background-position: center center;
+
 }
 .Real_Estate_section .Real_Estate_container-text{
     width: 746px;
