@@ -55,7 +55,7 @@
 
 }
 
-.Real_Estate_section img{
+.Real_Estate_section .background_image{
       width: 100%;
     overflow-y: hidden;
     position: absolute;
@@ -91,8 +91,10 @@
     position: absolute;
     z-index: 999;
     left: 20px;
+    height: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .redes_sociales_vertical .linea_vertical{
     width:18px;
