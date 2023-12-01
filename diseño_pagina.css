@@ -56,7 +56,7 @@
 .Real_Estate_section .Real_Estate_container-text{
     width: 746px;
     height: 99px;
-    padding: 683px 106px 1068px 268px ;
+    padding: 683px 106px 1068px 100px ;
 
 }
 .Real_Estate_section .Real_Estate_container-text h1{
@@ -71,7 +71,8 @@
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
-    line-height: 55px;
+    line-height: 70px;
+
 }
 /* Trabajar sobre los enlaces*/
 
