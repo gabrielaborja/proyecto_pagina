@@ -59,6 +59,19 @@
     padding: 683px 106px 1068px 268px ;
 
 }
-
+.Real_Estate_section .Real_Estate_container-text h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+}
+.Real_Estate_section .Real_Estate_container-text p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+}
 /* Trabajar sobre los enlaces*/
 
