@@ -94,17 +94,19 @@
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    gap:20px;
 }
-.redes_sociales_vertical .linea_vertical{
-    width:18px;
-    height:18px;
 
-}
 .redes_sociales_vertical p{
     transform: rotate(90deg);
     color: #FFF;
    
+}
+.redes_sociales_vertical .sociales{
+    width:18px;
+    height:18px;
+
 }
 /* Trabajar sobre los enlaces*/
 
@@ -112,3 +114,8 @@
 background-position: center center;
 background-size: cover;
 */
+/*.redes_sociales_vertical .linea_vertical{
+    width:18px;
+    height:18px;
+
+}*/
