@@ -113,6 +113,9 @@
     height: 45px;
     width: 5px;
     border-left: 1px solid #FFF;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 1px;
     margin-top: 15px;
 }
 /* Trabajar sobre los enlaces*/
