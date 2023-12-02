@@ -37,12 +37,39 @@
     margin-left: 40px ;
 
 }
-.navbar_header .nav_container-links a{
+.login_barra{
+    height: fit-content;
+    text-decoration: none;
+    color: #7E7E7E;
+    font-size: 15px;
+    margin-right: 35px;
+    margin-left: 5px;
+}
+.sign-up_barra{
+    height: fit-content;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+}
+.ESP_barra{
+    height: fit-content;
+    text-decoration: none;
+    color: #7E7E7E;
+    font-size: 15px;
+    margin-right: 75px;
+}
+.ENG_barra{
+    height: fit-content;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.nav_container-links a{
         height: fit-content;
-        text-decoration: none;
-        color: #FFF;
-        font-size: 20px;
+        
     }
+
 /* END NAV_BAR*/
 
 /* INICIO IMAGEN DE FONDO PRINCIPAL*/
