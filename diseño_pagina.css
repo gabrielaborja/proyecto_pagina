@@ -118,6 +118,19 @@
     line-height: 1px;
     margin-top: 15px;
 }
+/* FIN IMAGEN DE FONDO PRINCIPAL*/
+
+/* INICIO BOTÓN DE BÚSQUEDA*/
+.icono_busqueda{
+    width: 320px;
+    height: 45px;
+}
+.icono_busqueda .busqueda{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+
 /* Trabajar sobre los enlaces*/
 
 /*background-image: url('./img/fondo_principal.png');
