@@ -122,27 +122,32 @@
 
 /* INICIO BOTÓN DE BÚSQUEDA*/
 .icono_busqueda{
-    width: 320px;
-    height: 40px;
+    width: 340px;
+    height: 35px;
 }
 .icono_busqueda .busqueda{
     /*background: linear-gradient(270deg, #000 0%, #7E7E7E 100%);*/
     /*mix-blend-mode: overlay;*/
-    /*background-color: transparent;*/
+    background-color: transparent;
     height: 100%;
     width: 100%;
     border: #FFF solid 1px;
     border-radius: 30px;
 }
 .busqueda{
-color: #FFF;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 11px;
-font-style: normal;
-font-weight: 390;
-line-height: 45px; 
+    padding: 5px 20px  ;
 }
-   
+
+input[type="text"]::placeholder{
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-size: 11px;
+    font-weight: 390;
+    line-height: 45px; 
+} 
+
+    
     
 
 /* Trabajar sobre los enlaces*/
