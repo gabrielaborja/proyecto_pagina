@@ -18,7 +18,7 @@
     background-color: rgb(0 0 0 / 50%);
     /*align-items: center;*/
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
-    height: 85px;
+    height: 70px;
     position: fixed;
     
 }
@@ -122,8 +122,12 @@
 
 /* INICIO BOTÓN DE BÚSQUEDA*/
 .icono_busqueda{
-    width: 340px;
+    width: 320px;
     height: 35px;
+    background-color: blue;
+    position: relative;
+    bottom: 380px;
+    left: 100px;
 }
 .icono_busqueda .busqueda{
     /*background: linear-gradient(270deg, #000 0%, #7E7E7E 100%);*/
@@ -147,7 +151,12 @@ input[type="text"]::placeholder{
     line-height: 45px; 
 } 
 .lupa_blanca{
+    height: 15px;
+    width: 15px;
     position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translate(0,-50%);
 }
     
     
