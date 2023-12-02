@@ -29,20 +29,19 @@
     /*justify-content: space-between;*/
 }
 .logo{
-    width: 266px;
-    height: 25px;
+    width: 150px;
+    height: 15px;
     flex-shrink: 0;
     margin-right: 700px;
+    margin-top: 13px;
 
 }
-.navbar_header .nav_container-links a {
-
-    height: fit-content;
-    text-decoration: none;
-    color: #FFF;
-    font-size: 20px;
-
-}
+.navbar_header .nav_container-links a{
+        height: fit-content;
+        text-decoration: none;
+        color: #FFF;
+        font-size: 20px;
+    }
 /* END NAV_BAR*/
 
 /* INICIO IMAGEN DE FONDO PRINCIPAL*/
