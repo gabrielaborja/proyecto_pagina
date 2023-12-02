@@ -109,7 +109,7 @@
 .Real_Estate_section .Real_Estate_container-text h1{
     color: #FFF;
     font-family:'Times New Roman', Times, serif;
-    font-size: 80px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 500;
     line-height: 45px;
@@ -117,12 +117,16 @@
 .Real_Estate_section .Real_Estate_container-text p{
     color: #FFF;
     font-family:'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: 70px;
-    margin-bottom: 5px;
+    margin-left: 15px ;
+    
+    /*margin-bottom: 5px;*/
+/* FIN IMAGEN DE FONDO PRINCIPAL*/
 }
+/* INICIO MENÚ DE REDES SOCIALES*/
 .redes_sociales_vertical{
     position: absolute;
     z-index: 999;
@@ -154,7 +158,43 @@
     line-height: 1px;
     margin-top: 15px;
 }
-/* FIN IMAGEN DE FONDO PRINCIPAL*/
+/* FIN MENÚ DE REDES SOCIALES*/
+
+/* INICIO BOTÓN VIEW ALL PROPERTIES*/
+
+.contenedor_view_all_properties{
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(234, 0, 255);
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.contenedor_view_all_properties .view_properties{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border: #FFF solid 1px;
+    border-radius: 50px;
+}
+.view_properties{
+    color: #FFF;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.flecha{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+/* END BOTÓN VIEW ALL PROPERTIES*/
 
 /* INICIO BOTÓN DE BÚSQUEDA*/
 .icono_busqueda{
@@ -195,10 +235,11 @@ input[type="text"]::placeholder{
     transform: translate(0,-50%);
 }
 
+
 /* FIN BOTÓN DE BÚSQUEDA*/
 
-/* INICIO BOTÓN VIEW ALL PROPERTIES*/
 
+      
     
 
 /* Trabajar sobre los enlaces*/
