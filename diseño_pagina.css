@@ -243,7 +243,15 @@ input[type="text"]::placeholder{
 
 /* FIN BOTÓN DE BÚSQUEDA*/
 
-      
+ /* CONTENEDOR WORLDWIDE 2*/
+ .worldwide_contenedor_text .titulo_adorno{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style:normal;
+    font-weight: 390;
+    line-height: 45px; 
+
+ }     
     
 
 /* Trabajar sobre los enlaces*/
