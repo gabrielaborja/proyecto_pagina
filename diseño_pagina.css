@@ -122,10 +122,37 @@
     font-weight: 500;
     line-height: 70px;
     margin-left: 15px ;
-
-    /*margin-bottom: 5px;*/
-/* FIN IMAGEN DE FONDO PRINCIPAL*/
 }
+.Real_Estate_section .lineas_horizontales_contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+/* FIN IMAGEN DE FONDO PRINCIPAL*/
+
+/* INICIO LINEAS HORIZONTALES*/
+.lineas_horizontales_contenedor .linea_horizontal1 .linea_horizontal2 .linea_horizontal3{
+    display: flex;
+    flex-direction: row;
+}
+
+.linea_horizontal1{
+    border: 20px solid rgb(243, 100, 100);
+    justify-content: center;
+    row-gap: 20px;
+}
+.linea_horizontal2{
+    border: 20px solid rgb(243, 100, 100);
+    justify-content: center;
+}
+.linea_horizontal3{
+    border: 20px solid rgb(243, 100, 100);
+    justify-content: center;
+}
+
 /* INICIO MENÚ DE REDES SOCIALES*/
 .redes_sociales_vertical{
     position: absolute;
@@ -207,8 +234,6 @@
     left: 100px;
 }
 .icono_busqueda .busqueda{
-    /*background: linear-gradient(270deg, #000 0%, #7E7E7E 100%);*/
-    /*mix-blend-mode: overlay;*/
     background-color: transparent;
     height: 100%;
     width: 100%;
@@ -236,8 +261,23 @@ input[type="text"]::placeholder{
     transform: translate(0,-50%);
 }
 
-
 /* FIN BOTÓN DE BÚSQUEDA*/
+
+
+
+/*.lineas_horizontales_contenedor .linea_horizontal{
+    border: 20px solid rgb(243, 100, 100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}*/
+/*.linea_horizontal{
+    border: 20px solid rgb(243, 100, 100);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}*/
 
 
       
