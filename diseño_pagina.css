@@ -146,7 +146,9 @@ input[type="text"]::placeholder{
     font-weight: 390;
     line-height: 45px; 
 } 
-
+.lupa_blanca{
+    position: absolute;
+}
     
     
 
