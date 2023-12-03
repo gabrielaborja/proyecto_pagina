@@ -331,18 +331,24 @@ input[type="text"]::placeholder{
 /* END BOTONES WORLDWIDE 2*/
 
 /* INICIO GALERIA WORLDWIDE 2*/
-.imagen_4, {
-    height: 10px;
-    width: 10px;
+.foto4{
+    height: 300px;
+    width: 400px;
 }
-.imagen_5, .imagen_6{
+.foto5{
+    height: 50px;
+    width: 50px;
+}
+.foto6{
+    height: 50px;
+    width: 50px;
+}
 
-}
-/*
 .galeria_imagenes2{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-}*/
+    gap:10px;
+}
 
 /*.imagen_4 .imagen_5{
     grid-column: span 4;
