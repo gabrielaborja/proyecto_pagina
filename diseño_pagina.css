@@ -89,6 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-bottom: 400px;
 
 }
 
@@ -244,15 +245,54 @@ input[type="text"]::placeholder{
 /* FIN BOTÓN DE BÚSQUEDA*/
 
  /* CONTENEDOR WORLDWIDE 2*/
+ .contenedor_worldwide2{
+    background-color: #FFF;
+    height: 300px;
+
+ }
  .worldwide_contenedor_text .titulo_adorno{
     font-family:'Times New Roman', Times, serif;
-    font-size: 30px;
+    color:  #DF991B;
+    font-size: 25px;
     font-style:normal;
-    font-weight: 390;
+    font-weight: 350;
     line-height: 45px; 
 
- }     
-    
+ } 
+ 
+ .worldwide_contenedor_text h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-style:normal;
+    font-weight: 530;
+    line-height: 45px; 
+ }
+ .worldwide_contenedor_text p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-style:normal;
+    font-weight: 250;
+    line-height: 45px; 
+ }
+ .boton_prev{
+    color:  #B4B7B7;
+ }
+ .boton_view{
+    color:#000 ;
+    font: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight:500;
+    line-height: 45px;
+    border: solid 1px black;
+    background-color: transparent;
+    padding: 1px 50px;
+    border-radius: 30px;
+
+ }
+ .boton_next{
+    color:#DF991B;
+ }
 
 /* Trabajar sobre los enlaces*/
 
