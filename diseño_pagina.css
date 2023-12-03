@@ -331,8 +331,8 @@ input[type="text"]::placeholder{
 
  }
  .contenedor_worldwide_texto_botones{
-    padding-left: 30px;
-    width: 500px;
+    padding-left: 20px;
+    width: 450px;
 }
 /* END BOTONES WORLDWIDE 2*/
 
@@ -341,29 +341,34 @@ input[type="text"]::placeholder{
    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:70px
+    /*gap:70px*/
 
 }
 
 .galeria_imagenes2{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap:10px;
+    gap:5px;
+    overflow-x: hidden;
 }
 .foto4{
     height: 200px;
-    width: 250px;
-   grid-column: span 10;
+    width: 230px;
 }
 .foto5{
     height: 250px;
     width: 220px;
-   grid-column: span 10;
 }
 .foto6{
     height: 250px;
-    width: 220px;
-    grid-column: span 2;
+    width: 205px;
+}
+.galeria_imagenes2 .imagen_4,
+.galeria_imagenes2 .imagen_5 {
+    grid-column: span 5;
+}
+.galeria_imagenes2 .imagen_6 {
+    grid-column: span 2; 
 }
 
 
