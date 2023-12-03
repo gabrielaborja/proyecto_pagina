@@ -535,13 +535,14 @@ input[type="text"]::placeholder{
  
  .galeria_imagenes1{
      /*width: 700px;*/
+     margin-left: 70px;
      display: grid;
      grid-template-columns: repeat(12, 1fr);
      gap:0.2 px;
      overflow-x: hidden;
  }
  .foto1{
-     height: 200px;
+     height: 250px;
      width: 230px;
      
  }
@@ -553,20 +554,21 @@ input[type="text"]::placeholder{
      height: 250px;
      width: 210px;
  }
- .galeria_imagenes2 .imagen_4,
- .galeria_imagenes2 .imagen_5 {
+ 
+ .galeria_imagenes1 .imagen_2,
+ .galeria_imagenes1 .imagen_3 {
      grid-column: span 5;
      width: 100%;
      height: 100%;
  }
- .galeria_imagenes2 .imagen_6 {
+ .galeria_imagenes1 .imagen_1 {
      grid-column: span 2; 
      width: 100%;
      height: 100%;
      
  }
  
- .galeria_imagenes2 .france{
+ .galeria_imagenes1 .france1{
      color:#464547;
      font-family:'Times New Roman', Times, serif;
      font-size: 17px;
@@ -574,7 +576,7 @@ input[type="text"]::placeholder{
      font-weight: 400;
      margin-left:35px ;
  }
- .galeria_imagenes2 .germany{
+ .galeria_imagenes1 .england{
      color:white;
      font-family:'Times New Roman', Times, serif;
      font-size: 17px;
@@ -583,44 +585,27 @@ input[type="text"]::placeholder{
      margin-left:35px ;
      margin-top: -50px
  }
- .galeria_imagenes2 .fran{
-     color:#464547;
-     font-family:'Times New Roman', Times, serif;
-     font-size: 17px;
-     font-style: normal;
-     font-weight: 400;
-     margin-left:75px ;
-     margin-top: -50px
- }
- .galeria_imagenes2 .carcassonne{
+
+ .galeria_imagenes1 .marseilles{
      color:#000;
      font-family:'Times New Roman', Times, serif;
      font-size: 22px;
      font-weight: 550;
      margin-left:35px ;
  }
- .galeria_imagenes2 .munich{
+ .galeria_imagenes1 .glasgow{
      color:white;
      font-family:'Times New Roman', Times, serif;
      font-size: 22px;
      font-weight: 550;
      margin-left:35px ;
  }
- .galeria_imagenes2 .clo{
-     color:#000;
-     font-family:'Times New Roman', Times, serif;
-     font-size: 22px;
-     font-weight: 550;
-     margin-left:75px ;
- }
- 
- 
- .galeria_imagenes2:hover{
+ .galeria_imagenes1:hover{
      cursor: pointer;
  
  }
  
- .galeria_imagenes2:hover p{
+ .galeria_imagenes:hover p{
      background-color: white;
      color: #6b6a6a;
      width: 100%;
