@@ -95,7 +95,6 @@
 .Real_Estate_section{
     background-image:url('./img/fondo_principal.png') ;
     background-size:cover;
-    height 100vh
     background-repeat: no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/fondo_principal.png');
     mix-blend-mode: overlay;
@@ -138,7 +137,7 @@
 
 /* INICIO MENÚ DE REDES SOCIALES*/
 .redes_sociales_vertical{
-    position: absolute;
+    position: fixed;
     z-index: 999;
     left: 20px;
     height: 50%;
@@ -151,7 +150,7 @@
 
 .redes_sociales_vertical p{
     transform: rotate(90deg);
-    color: #FFF;
+    color:#918f8f;
    
 }
 .redes_sociales_vertical .sociales{
@@ -162,7 +161,7 @@
 .redes_sociales_vertical .linea_vertical{
     height: 45px;
     width: 5px;
-    border-left: 1px solid #FFF;
+    border-left: 1.5px solid #918f8f;
     font-family: sans-serif;
     font-weight: 800;
     line-height: 1px;
