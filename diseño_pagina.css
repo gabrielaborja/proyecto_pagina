@@ -301,17 +301,18 @@ input[type="text"]::placeholder{
  .boton_view{
     color:#000 ;
     font: sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
-    font-weight:500;
-    line-height: 45px;
+    font-weight:300;
     border: solid 1px black;
     background-color: transparent;
-    padding: 1px 50px;
+    padding: 1px 70px;
     border-radius: 30px;
     display: flex;
     align-items:center;
     height: 53px;
+    white-space: nowrap;
+    
  }
  
  .boton_next{
@@ -331,7 +332,7 @@ input[type="text"]::placeholder{
 
  }
  .contenedor_worldwide_texto_botones{
-    padding-left: 20px;
+    padding-left: 70px;
     width: 450px;
 }
 /* END BOTONES WORLDWIDE 2*/
@@ -341,27 +342,29 @@ input[type="text"]::placeholder{
    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /*gap:70px*/
+    gap:10px
 
 }
 
 .galeria_imagenes2{
+    width: 700px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap:5px;
+    gap:2px;
     overflow-x: hidden;
 }
 .foto4{
     height: 200px;
     width: 230px;
+    
 }
 .foto5{
     height: 250px;
-    width: 220px;
+    width: 230px;
 }
 .foto6{
     height: 250px;
-    width: 205px;
+    width: 210px;
 }
 .galeria_imagenes2 .imagen_4,
 .galeria_imagenes2 .imagen_5 {
