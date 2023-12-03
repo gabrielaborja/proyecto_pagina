@@ -386,34 +386,27 @@ input[type="text"]::placeholder{
 .galeria_imagenes2 .imagen_6 p{
     position: absolute;
     top: 0; 
-    left: 0
+    left:0;
+    z-index:1;
+    
 }
 .galeria_imagenes2 .imagen_4 .carcassonne,
 .galeria_imagenes2 .imagen_5 .munich,
 .galeria_imagenes2 .imagen_6 .clo {
-    top: 100%; /* Ajustar según sea necesario para los párrafos inferiores (carcassonne, munich, clo) */
+    top: 100%; 
+    bottom: 0;
+    left:0;
+    z-index: 1;
 }
-/*
-.galeria_imagenes2 .imagen_4,
-.galeria_imagenes2 .imagen_5,
-.galeria_imagenes2 .imagen_6 {
-    position: relative; 
+.galeria_imagenes2:hover{
+    cursor: pointer;
+
 }
-.galeria_imagenes2 .imagen_4 p,
-.galeria_imagenes2 .imagen_5 p,
+.galeria_imagenes2:hover p{
+    background-color: rgb(255, 81, 0);
+    color: aqua;
 
-.galeria_imagenes2 .imagen_6 p{
-    position: absolute;
-} */
-
-    
-
-/*.imagen_4 .imagen_5{
-    grid-column: span 4;
 }
-.imagen_6{
-    grid-column: span 2;
-}*/
 
 /* Trabajar sobre los enlaces*/
 
