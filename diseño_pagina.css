@@ -94,21 +94,15 @@
 }
 .Real_Estate_section{
     background-image:url('./img/fondo_principal.png') ;
-    background-size: cover;
+    background-size:cover;
+    height 100vh
     background-repeat: no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/fondo_principal.png');
+    mix-blend-mode: overlay;
     background-position: 50% 29%;
     width: 100%;
 }
 
-/*.Real_Estate_section .background_image{
-      width: 100%;
-    overflow-y: hidden;
-    position: absolute;
-    z-index: -1;
-    margin-top: 270px;
-    background: linear-gradient(270deg, #000 0%, #7E7E7E 100%);
-}*/
 .Real_Estate_section .Real_Estate_container-text{
     width: 746px;
     height: 99px;
