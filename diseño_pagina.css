@@ -276,7 +276,7 @@ input[type="text"]::placeholder{
     font-size: 15px;
     font-style:normal;
     font-weight: 250;
-    line-height: 45px; 
+    line-height: 40px; 
  }
  .worldwide_buttons{
     display: flex;
@@ -398,6 +398,24 @@ input[type="text"]::placeholder{
     left:0;
     z-index: 1;
 }
+
+.galeria_imagenes2 .france,
+.galeria_imagenes2 .germany,
+.galeria_imagenes2 .fran{
+    color:#464547;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.galeria_imagenes2 .carcassonne,
+.galeria_imagenes2 .munich,
+.galeria_imagenes2 .clo{
+    color:#000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: 550;
+}
 .galeria_imagenes2:hover{
     cursor: pointer;
 
@@ -407,7 +425,6 @@ input[type="text"]::placeholder{
     color: aqua;
 
 }
-
 /* Trabajar sobre los enlaces*/
 
 /*background-image: url('./img/fondo_principal.png');
