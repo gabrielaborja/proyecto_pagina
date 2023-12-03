@@ -328,7 +328,28 @@ input[type="text"]::placeholder{
     height: 22px;
 
  }
+/* END BOTONES WORLDWIDE 2*/
 
+/* INICIO GALERIA WORLDWIDE 2*/
+.imagen_4, {
+    height: 10px;
+    width: 10px;
+}
+.imagen_5, .imagen_6{
+
+}
+/*
+.galeria_imagenes2{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}*/
+
+/*.imagen_4 .imagen_5{
+    grid-column: span 4;
+}
+.imagen_6{
+    grid-column: span 2;
+}*/
 
 /* Trabajar sobre los enlaces*/
 
