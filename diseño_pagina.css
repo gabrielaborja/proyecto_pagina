@@ -378,53 +378,130 @@ input[type="text"]::placeholder{
     height: 100%;
     
 }
-.galeria_imagenes2{
-    position: relative;
-}
-.galeria_imagenes2 .imagen_4 p
-.galeria_imagenes2 .imagen_5 p
-.galeria_imagenes2 .imagen_6 p{
-    position: absolute;
-    top: 0; 
-    left:0;
-    z-index:1;
-    
-}
-.galeria_imagenes2 .imagen_4 .carcassonne,
-.galeria_imagenes2 .imagen_5 .munich,
-.galeria_imagenes2 .imagen_6 .clo {
-    top: 100%; 
-    bottom: 0;
-    left:0;
-    z-index: 1;
-}
 
-.galeria_imagenes2 .france,
-.galeria_imagenes2 .germany,
+.galeria_imagenes2 .france{
+    color:#464547;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left:35px ;
+}
+.galeria_imagenes2 .germany{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left:35px ;
+    margin-top: -50px
+}
 .galeria_imagenes2 .fran{
     color:#464547;
     font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
+    margin-left:75px ;
+    margin-top: -50px
 }
-.galeria_imagenes2 .carcassonne,
-.galeria_imagenes2 .munich,
+.galeria_imagenes2 .carcassonne{
+    color:#000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 550;
+    margin-left:35px ;
+}
+.galeria_imagenes2 .munich{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 550;
+    margin-left:35px ;
+}
+.galeria_imagenes2 .clo{
+    color:#000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 550;
+    margin-left:75px ;
+}
+
+
+.galeria_imagenes2:hover{
+    cursor: pointer;
+
+}
+
+.galeria_imagenes2:hover p{
+    background-color: white;
+    color: #6b6a6a;
+    width: 100%;
+
+
+}
+
+
+
+/*
+.galeria_imagenes2{
+    position: relative;
+}
+.galeria_imagenes2 p{
+    position: absolute;
+    
+    top: 0; 
+    left:0;
+    z-index: 1;
+
+} 
+ 
+
+
+.galeria_imagenes2 .carcassonne {
+    margin-top: 170px; /
+
+}
+.galeria_imagenes2 .munich {
+    margin-top: 170px; 
+    margin-left: 20px;
+}
+.galeria_imagenes2 .clo {
+    margin-top: 170px; 
+    margin-left: 100px;
+}
+
+
+
+
+/*.galeria_imagenes2 .imagen_5,
+.galeria_imagenes2 .imagen_6{
+    z-index: 0;
+}*/
+/*.galeria_imagenes2 .foto5,
+.galeria_imagenes2 .foto6{
+    pointer-events: none;
+
+}*/
+
+/*.galeria_imagenes2:hover{
+    cursor: pointer;
+
+}*/
+
+
+
+
+/*
 .galeria_imagenes2 .clo{
     color:#000;
     font-family:'Times New Roman', Times, serif;
     font-size: 21px;
     font-weight: 550;
-}
-.galeria_imagenes2:hover{
-    cursor: pointer;
+    margin-left: 20px;
+}*/
 
-}
-.galeria_imagenes2:hover p{
-    background-color: rgb(255, 81, 0);
-    color: aqua;
 
-}
 /* Trabajar sobre los enlaces*/
 
 /*background-image: url('./img/fondo_principal.png');
