@@ -248,7 +248,6 @@ input[type="text"]::placeholder{
 
  /* CONTENEDOR WORLDWIDE 2*/
  .contenedor_worldwide2{
-    background-color: #FFF;
     height: 300px;
 
  }
@@ -277,7 +276,10 @@ input[type="text"]::placeholder{
     line-height: 45px; 
  }
  .boton_prev{
-    color:  #B4B7B7;
+    color:  #727272;
+    width: 60px;
+    height: 30px;
+    /*border: none;*/
  }
  .boton_view{
     color:#000 ;
@@ -294,6 +296,9 @@ input[type="text"]::placeholder{
  }
  .boton_next{
     color:#DF991B;
+    width: 60px;
+    height: 30px;
+    /*border: none;*/
  }
 
 /* Trabajar sobre los enlaces*/
