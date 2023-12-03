@@ -299,7 +299,7 @@ input[type="text"]::placeholder{
  .boton_view{
     color:#000 ;
     font: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight:500;
     line-height: 45px;
@@ -328,20 +328,19 @@ input[type="text"]::placeholder{
     height: 22px;
 
  }
+ .contenedor_worldwide_texto_botones{
+    padding-left: 30px;
+    width: 500px;
+}
 /* END BOTONES WORLDWIDE 2*/
 
 /* INICIO GALERIA WORLDWIDE 2*/
-.foto4{
-    height: 300px;
-    width: 400px;
-}
-.foto5{
-    height: 50px;
-    width: 50px;
-}
-.foto6{
-    height: 50px;
-    width: 50px;
+.contenedor_principal{
+   margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:70px
+
 }
 
 .galeria_imagenes2{
@@ -349,6 +348,23 @@ input[type="text"]::placeholder{
     grid-template-columns: repeat(12, 1fr);
     gap:10px;
 }
+.foto4{
+    height: 200px;
+    width: 250px;
+   /*grid-column: span 5;*/
+}
+.foto5{
+    height: 250px;
+    width: 220px;
+   /*grid-column: span 5;*/
+}
+.foto6{
+    height: 250px;
+    width: 220px;
+    /*grid-column: span 2;*/
+}
+
+
 
 /*.imagen_4 .imagen_5{
     grid-column: span 4;
