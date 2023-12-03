@@ -146,6 +146,7 @@
     align-items: center;
     gap:15px;
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 
 .redes_sociales_vertical p{
@@ -158,6 +159,7 @@
     height:15px;
 
 }
+
 .redes_sociales_vertical .linea_vertical{
     height: 45px;
     width: 5px;
@@ -264,14 +266,14 @@ input[type="text"]::placeholder{
  
  .worldwide_contenedor_text h2{
     font-family:'Times New Roman', Times, serif;
-    font-size: 45px;
+    font-size: 40px;
     font-style:bold;
     /*font-weight: 530;*/
     line-height: 45px; 
  }
  .worldwide_contenedor_text p{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 17px;
+    font-size: 15px;
     font-style:normal;
     font-weight: 250;
     line-height: 45px; 
@@ -351,17 +353,17 @@ input[type="text"]::placeholder{
 .foto4{
     height: 200px;
     width: 250px;
-   /*grid-column: span 5;*/
+   grid-column: span 10;
 }
 .foto5{
     height: 250px;
     width: 220px;
-   /*grid-column: span 5;*/
+   grid-column: span 10;
 }
 .foto6{
     height: 250px;
     width: 220px;
-    /*grid-column: span 2;*/
+    grid-column: span 2;
 }
 
 
