@@ -521,6 +521,7 @@ input[type="text"]::placeholder{
  .contenedor_worldwide_texto_botones1{
     padding-left: 90px;
     width: 450px;
+    margin-left: 30px;
 }
 /* CONTENEDOR Y BOTONES WORLDWIDE 1*/
 
@@ -538,21 +539,21 @@ input[type="text"]::placeholder{
      margin-left: 70px;
      display: grid;
      grid-template-columns: repeat(12, 1fr);
-     gap:0.2 px;
+     gap:5 px;
      overflow-x: hidden;
  }
  .foto1{
      height: 250px;
-     width: 230px;
+     width: 220px;
      
  }
  .foto2{
      height: 250px;
-     width: 230px;
+     width: 220px;
  }
  .foto3{
-     height: 250px;
-     width: 210px;
+     height: 200px;
+     width: 220px;
  }
  
  .galeria_imagenes1 .imagen_2,
@@ -575,6 +576,7 @@ input[type="text"]::placeholder{
      font-style: normal;
      font-weight: 400;
      margin-left:35px ;
+     /*margin-top: -50px*/
  }
  .galeria_imagenes1 .england{
      color:white;
@@ -605,11 +607,10 @@ input[type="text"]::placeholder{
  
  }
  
- .galeria_imagenes:hover p{
+ .galeria_imagenes1:hover p{
      background-color: white;
      color: #6b6a6a;
      width: 100%;
- 
  
  }
 
