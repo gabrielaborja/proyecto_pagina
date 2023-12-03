@@ -167,6 +167,7 @@
     line-height: 1px;
     margin-top: 15px;
 }
+
 /* FIN MENÚ DE REDES SOCIALES*/
 
 /* INICIO BOTÓN VIEW ALL PROPERTIES*/
@@ -250,6 +251,7 @@ input[type="text"]::placeholder{
     height: 300px;
 
  }
+
  .worldwide_contenedor_text .titulo_adorno{
     font-family:'Times New Roman', Times, serif;
     color:  #DF991B;
@@ -263,8 +265,8 @@ input[type="text"]::placeholder{
  .worldwide_contenedor_text h2{
     font-family:'Times New Roman', Times, serif;
     font-size: 45px;
-    font-style:normal;
-    font-weight: 530;
+    font-style:bold;
+    /*font-weight: 530;*/
     line-height: 45px; 
  }
  .worldwide_contenedor_text p{
@@ -274,16 +276,30 @@ input[type="text"]::placeholder{
     font-weight: 250;
     line-height: 45px; 
  }
+ .worldwide_buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-top: 45px;
+ }
  .boton_prev{
     color:  #727272;
     width: 60px;
-    height: 30px;
-    /*border: none;*/
+    height: 53px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    gap: 8px;
+    
+ }
+ .boton_prev .flecha_gris{
+    height: 22px;
  }
  .boton_view{
     color:#000 ;
     font: sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight:500;
     line-height: 45px;
@@ -291,14 +307,28 @@ input[type="text"]::placeholder{
     background-color: transparent;
     padding: 1px 50px;
     border-radius: 30px;
-
+    display: flex;
+    align-items:center;
+    height: 53px;
  }
+ 
  .boton_next{
     color:#DF991B;
     width: 60px;
-    height: 30px;
-    /*border: none;*/
+    height: 53px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background-color: transparent;
+
+    
  }
+ .boton_next .flecha_naranja{
+    height: 22px;
+
+ }
+
 
 /* Trabajar sobre los enlaces*/
 
