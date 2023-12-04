@@ -638,19 +638,37 @@ input[type="text"]::placeholder{
     width: 500px;
     height: 160px;
 }
+.contenedor_unlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+.contenedor_correo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+
+}
 .join{
     color: #DF991B;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 45px;
+    margin-left: 40px;
 }
 .unlock{
     color: #FFF;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     font-weight: 400;
-    line-height: 45px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.unlock h3{
+
 }
 .submit{
     color:#DF991B ;
@@ -659,35 +677,39 @@ input[type="text"]::placeholder{
     font-style: normal;
     border: solid 1px #DF991B;
     background-color: transparent;
-    /*padding: 1px 70px;*/
     border-radius: 30px;
     height: 42px;
     width: 220px;
+    margin-top: 12px;
+    margin-left: 278px;
     
  }
 
  .contenedor_correo label {
     color: #FFF; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     font-size: 13px; 
     margin-bottom: 5px; 
     display: block; 
+    margin-left: 20px;
 }
 /* Estilos para el input */
 .contenedor_correo .name {
     width: 100%; 
     height: 30px;
     background-color: transparent;
-    padding: 10px; /* Agregar un relleno alrededor del input */
-    font-size: 16px; /* Tamaño de la fuente */
-    border: 1px solid #7E7E7E; /* Borde del input */
-    border-radius: 30px; /* Bordes redondeados */
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #7E7E7E; 
+    border-radius: 30px; 
 }
 .contenedor_correo .name::placeholder {
     color: #7E7E7E; 
     font-style: normal; 
-    font-size: 10px;
+    font-size: 9px;
+    text-indent: 15px;
+    
 }
 .submit:hover{
     cursor: pointer;
