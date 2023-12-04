@@ -724,6 +724,17 @@ input[type="text"]::placeholder{
 /* FIN CONTENEDOR PEQUEÑO*/
 
 /* INICIO CONTENEDOR GRANDE*/
+.contenedor_grande {
+    height: 300px;
+    background-color: aqua;
+}
+.contenedores_1_2_3_4{
+    display: flex;
+    flex-direction: row;
+    /*background-color: #DF991B;*/
+    justify-content: space-around;
+}
+.contendor_1
 
 
 
