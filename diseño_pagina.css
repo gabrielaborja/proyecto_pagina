@@ -627,8 +627,8 @@ input[type="text"]::placeholder{
     display: flex;
     flex-direction: row;
     background-color:#26282B;;
-    margin-left: 110px;
-    margin-right:110px;
+    margin-left: 130px;
+    margin-right:130px;
     margin-top: 100px;
     margin-bottom: 100px;
 
@@ -674,14 +674,14 @@ input[type="text"]::placeholder{
     color:#DF991B ;
     font: sans-serif;
     font-size: 15px;
-    font-style: normal;
+    font-style: bold;
     border: solid 1px #DF991B;
     background-color: transparent;
     border-radius: 30px;
     height: 42px;
     width: 220px;
     margin-top: 12px;
-    margin-left: 278px;
+    margin-left: 180px;
     
  }
 
@@ -696,12 +696,12 @@ input[type="text"]::placeholder{
 }
 /* Estilos para el input */
 .contenedor_correo .name {
-    width: 100%; 
+    width: 400px; 
     height: 30px;
     background-color: transparent;
     padding: 10px; 
     font-size: 16px; 
-    border: 1px solid #7E7E7E; 
+    border: 1px solid hsl(0, 0%, 49%); 
     border-radius: 30px; 
 }
 .contenedor_correo .name::placeholder {
@@ -709,7 +709,8 @@ input[type="text"]::placeholder{
     font-style: normal; 
     font-size: 9px;
     text-indent: 15px;
-    
+
+
 }
 .submit:hover{
     cursor: pointer;
