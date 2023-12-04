@@ -222,7 +222,7 @@
 .icono_busqueda{
     width: 320px;
     height: 35px;
-    background-color: blue;
+    background-color:transparent;
     position: relative;
     bottom: 380px;
     left: 100px;
@@ -994,27 +994,35 @@ input[type="text"]::placeholder{
     position: relative;
 }
 
-.contenedor_pequeno,
+.contenedor_pequeno{
+    position: absolute;
+    width: 80%;
+}
 .contenedor_grande {
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 90%;
 }
 
 .contenedor_pequeno {
+    top: 20px;
+    left:50px;
+    height: 160px;
     z-index: 2; 
 }
 
 .contenedor_grande {
+    top: 30px; 
+    left: 0;
+    height: calc(100% - 180px); 
     z-index: 1; 
 }
 /* FIN CONTENEDOR PEQUENO SOBRE CONTENEDOR GRANDE*/
 
 /* INICIO CONTENEDOR GRANDE*/
 .contenedor_grande {
-    height: 400px;
+    height: 300px;
     width: 100%;
-    background-color: aqua;
+    background-color: black;
 }
 .contenedores_1_2_3_4{
     display: flex;
@@ -1028,7 +1036,7 @@ input[type="text"]::placeholder{
 .contendor_1{
     height: 300px;
     width: 300px;
-    background-color: #DF991B;
+    background-color: black;
     display: flex;
     flex-direction: column;
     padding-top: 200px;
@@ -1039,50 +1047,120 @@ input[type="text"]::placeholder{
     width: 140px;
     height: 14px;
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 .become{
     color: #FFF;
-    font-family: 'Cabin';
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
 font-style: normal;
 font-weight: 330;
-line-height: 30px
+line-height: 30px;
+margin-left: 50px;
 }
 .contendor_2{
     display: flex;
     flex-direction: column;
     padding-top: 200px;
     height: 300px;
-    background-color: #601bdf;
+    width: 100px;
+    background-color: black;
 }
 .suites, .cities, .villas{
     color: #FFF;
-    font-family: 'Cabin';
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
-font-style: normal;
-font-weight: 330;
-line-height: 30px
+    font-style: normal;
+    font-weight: 330;
+    line-height: 23px;
 }
 .contendor_3{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    padding-top:200px;
     height: 300px;
-    background-color: #dfdc1b;
+    background-color: black;
+    width: 180px;
 }
+.houses{
+    color: #FFF;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 330;
+    line-height: 23px;
+    font-style: bolder;
+
+}
+.apartments{
+    color: #FFF;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 330;
+    line-height: 23px;
+
+}
+.contact_us1{
+    color: #FFF;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 330;
+    line-height: 23px;
+    margin-top: 18px;
+
+}
+
 .contendor_4{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    padding-top: 200px;
     height: 300px;
-    background-color: #df1bcf;
+    width: 300px;
+    background-color: black;
+}
+.call{
+    color: #FFF;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 330;
+    line-height: 23px;
+    margin-top: 18px;
+    margin-left: 200px;
+}
+.number{
+    color: #FFF;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-style: bold;
+    font-weight: 330;
+    line-height: 23px;
+    margin-top: 5px;
+    margin-left: 130px;
+
+}
+.mail{
+    color: #FFF;
+    font-family:'Cabin';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: 23px;
+    margin-top: 10px;
+    margin-left: 130px;
+
 }
 
 .copyright{
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-top: solid 1px white;
-    background-color: #84df1b;
+    background-color: black;
+    color: white;
+    font-family: 'cabin';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 330;
 
 }
 /*
