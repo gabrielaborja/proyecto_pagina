@@ -621,7 +621,7 @@ input[type="text"]::placeholder{
 
 /* INICIO DISEÑO FOOTER*/
 
-/*CONTENEDOR PEQUEÑO*/
+/* INICIO CONTENEDOR PEQUEÑO*/
 
 .contenedor_pequeno{
     display: flex;
@@ -721,6 +721,12 @@ input[type="text"]::placeholder{
     border: #464547;
     
 }
+/* FIN CONTENEDOR PEQUEÑO*/
+
+/* INICIO CONTENEDOR GRANDE*/
+
+
+
     
 
 
