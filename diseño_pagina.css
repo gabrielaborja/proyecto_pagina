@@ -793,6 +793,15 @@ input[type="text"]::placeholder{
 .titulo__subtitulo_galeria h2 {
     margin: 0; 
 }
+.img17, .img18, .img19, .img20{
+    width: 100px;
+    height: 50px;
+}
+.img21, .img22, .img23, .img24{
+    width: 100px;
+    height: 50px;
+}
+
 
 
 
