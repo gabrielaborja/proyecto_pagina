@@ -468,7 +468,7 @@ input[type="text"]::placeholder{
     line-height: 45px; 
  }
  .worldwide_contenedor_text p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Cabin';
     font-size: 15px;
     font-style:normal;
     font-weight: 250;
@@ -1027,19 +1027,41 @@ input[type="text"]::placeholder{
 
 .contendor_1{
     height: 300px;
+    width: 300px;
     background-color: #DF991B;
     display: flex;
     flex-direction: column;
     padding-top: 200px;
+
        
 }
-
+.luxury{
+    width: 140px;
+    height: 14px;
+    margin-bottom: 10px;
+}
+.become{
+    color: #FFF;
+    font-family: 'Cabin';
+    font-size: 16px;
+font-style: normal;
+font-weight: 330;
+line-height: 30px
+}
 .contendor_2{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    padding-top: 200px;
     height: 300px;
     background-color: #601bdf;
+}
+.suites, .cities, .villas{
+    color: #FFF;
+    font-family: 'Cabin';
+    font-size: 16px;
+font-style: normal;
+font-weight: 330;
+line-height: 30px
 }
 .contendor_3{
     display: flex;
