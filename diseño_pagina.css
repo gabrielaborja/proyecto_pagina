@@ -619,6 +619,68 @@ input[type="text"]::placeholder{
 }
 /* END GALERÍA WORLDWIDE 2*/
 
+
+
+/* INICIO GALERIA GRANDE*/
+.galeria_grande1,
+.galeria_grande2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.titulo__subtitulo_galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    margin-top: 20px;
+}
+.titulo__subtitulo_galeria p,
+.titulo__subtitulo_galeria h2 {
+    margin: 0; 
+}
+.img17, .img18, .img19, .img20{
+    width: 230px;
+    height: 180px;
+}
+.img21, .img22, .img23, .img24{
+    width: 230px;
+    height: 180px;
+}
+
+.galeria_grande1 .gal_1,
+.galeria_grande1 .gal_2,
+.galeria_grande1 .gal_3,
+.galeria_grande1 .gal_4,
+.galeria_grande2 .gal_5,
+.galeria_grande2 .gal_6,
+.galeria_grande2 .gal_7,
+.galeria_grande2 .gal_8 {
+    margin: 5px; 
+    
+}
+.surfrow, .indigo, .rosewood, .regis1, 
+.giralda, .regis2, .solterre, .urbin{
+    color:#464547;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.surfside, .vero_beach, .nassau, .brickell,
+.coral, .brickell1, .nevis, .coconut{
+    color:#000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 550;
+
+
+}
+
 /* INICIO DISEÑO FOOTER*/
 
 /* INICIO CONTENEDOR PEQUEÑO*/
@@ -768,9 +830,7 @@ input[type="text"]::placeholder{
     background-color: #84df1b;
 
 }
-
-
-/* INICIO GALERIA GRANDE*/
+/*
 .galeria_grande1{
     display: flex;
     flex-direction: row;
@@ -781,27 +841,7 @@ input[type="text"]::placeholder{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-.titulo__subtitulo_galeria {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    text-align: center; 
-    margin-top: 20px;
-}
-.titulo__subtitulo_galeria p,
-.titulo__subtitulo_galeria h2 {
-    margin: 0; 
-}
-.img17, .img18, .img19, .img20{
-    width: 100px;
-    height: 50px;
-}
-.img21, .img22, .img23, .img24{
-    width: 100px;
-    height: 50px;
-}
-
+}*/
 
 
 
