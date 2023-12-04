@@ -774,11 +774,13 @@ input[type="text"]::placeholder{
 .galeria_grande1{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .galeria_grande2{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .titulo__subtitulo_galeria {
     display: flex;
