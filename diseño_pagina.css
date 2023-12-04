@@ -806,6 +806,34 @@ input[type="text"]::placeholder{
 
  }
 
+ .services_curation h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style:bold;
+    /*font-weight: 530;*/
+    line-height: 45px; 
+ }
+ .services_curation .services{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #DF991B;
+    font-size: 22px;
+    font-style:normal;
+    font-weight: 250;
+    line-height: 40px; 
+ }
+
+ .services_curation .ultimate{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-style:normal;
+    font-weight: 250;
+    line-height: 40px; 
+ }
+ 
+ .services_curation{
+    width: 500px;
+    column-gap: 5px;
+ }
 
 
 /* INICIO DISEÑO FOOTER*/
