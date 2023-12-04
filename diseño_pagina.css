@@ -645,11 +645,11 @@ input[type="text"]::placeholder{
     margin: 0; 
 }
 .img17, .img18, .img19, .img20{
-    width: 250px;
+    width: 262px;
     height: 190px;
 }
 .img21, .img22, .img23, .img24{
-    width: 250px;
+    width: 262px;
     height: 190px;
 }
 
@@ -694,7 +694,7 @@ input[type="text"]::placeholder{
 .galeria_grande2 .gal_6:hover p,
 .galeria_grande2 .gal_7:hover p,
 .galeria_grande2 .gal_8:hover p {
-    background-color:#b6b6b6;
+    background-color:#dfdcdc;
     color: black;
 }
 
@@ -721,6 +721,9 @@ input[type="text"]::placeholder{
 /* END GALERIA GRANDE*/
 
 /* INICIO SECCION ART CURATION*/
+.art_service{
+    
+}
 .contenedor_imagen_arte {
     position: relative;
   }
@@ -728,6 +731,11 @@ input[type="text"]::placeholder{
   .rectangulo_fondo {
     position: absolute;
     z-index: 1; 
+    height: 600px;
+    /*top: 400px;*/
+    left: 100px;
+    margin-top: 25px ;
+    bottom: 5px;
   }
   
   .arte {
@@ -735,6 +743,9 @@ input[type="text"]::placeholder{
     z-index: 2; 
     height: 500px;
     width: 500px;
+    top: 150px;
+    left: 210px;
+    margin-bottom: 200px;
   }
 
 
@@ -746,8 +757,8 @@ input[type="text"]::placeholder{
     display: flex;
     flex-direction: row;
     background-color:#26282B;;
-    margin-left: 130px;
-    margin-right:130px;
+    margin-left: 105px;
+    margin-right:105px;
     margin-top: 100px;
     margin-bottom: 100px;
 
