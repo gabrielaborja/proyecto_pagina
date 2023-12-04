@@ -722,7 +722,11 @@ input[type="text"]::placeholder{
 
 /* INICIO SECCION ART CURATION*/
 .art_service{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
 }
 .contenedor_imagen_arte {
     position: relative;
@@ -733,8 +737,8 @@ input[type="text"]::placeholder{
     z-index: 1; 
     height: 600px;
     /*top: 400px;*/
-    left: 100px;
-    margin-top: 25px ;
+    left:0px;
+    /*margin-top: 25px ;*/
     bottom: 5px;
   }
   
@@ -744,9 +748,64 @@ input[type="text"]::placeholder{
     height: 500px;
     width: 500px;
     top: 150px;
-    left: 210px;
+    left: 80px;
     margin-bottom: 200px;
   }
+
+  .curation_botones{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-top: 45px;
+ }
+ .boton_prev2{
+    color:  #727272;
+    width: 60px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    gap: 8px;
+    
+ }
+ .boton_prev2 .flecha_gris2{
+    height: 22px;
+ }
+ .contact_us{
+    color:#000 ;
+    font: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight:300;
+    border: solid 1px black;
+    background-color: transparent;
+    padding: 1px 70px;
+    border-radius: 30px;
+    display: flex;
+    align-items:center;
+    height: 53px;
+    white-space: nowrap;
+    
+ }
+ 
+ .boton_next2{
+    color:#DF991B;
+    width: 60px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background-color: transparent;
+
+    
+ }
+ .boton_next2 .flecha_naranja2{
+    height: 22px;
+
+ }
+
 
 
 /* INICIO DISEÑO FOOTER*/
