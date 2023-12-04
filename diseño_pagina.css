@@ -721,6 +721,21 @@ input[type="text"]::placeholder{
 /* END GALERIA GRANDE*/
 
 /* INICIO SECCION ART CURATION*/
+.contenedor_imagen_arte {
+    position: relative;
+  }
+  
+  .rectangulo_fondo {
+    position: absolute;
+    z-index: 1; 
+  }
+  
+  .arte {
+    position: relative; 
+    z-index: 2; 
+    height: 500px;
+    width: 500px;
+  }
 
 
 /* INICIO DISEÑO FOOTER*/
