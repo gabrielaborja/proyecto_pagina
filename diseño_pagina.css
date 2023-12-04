@@ -409,17 +409,21 @@ input[type="text"]::placeholder{
      font-weight: 550;
      margin-left:35px ;
  }
- .galeria_imagenes1:hover{
-     cursor: pointer;
+
+
  
- }
- 
- .galeria_imagenes1:hover p{
-     background-color: white;
-     color: #6b6a6a;
-     width: 100%;
- 
- }
+ .galeria_imagenes1 .imagen_2:hover p,
+.galeria_imagenes1 .imagen_3:hover p{
+    cursor: pointer;
+}
+
+.galeria_imagenes1 .imagen_2:hover p,
+.galeria_imagenes1 .imagen_3:hover p{
+    background-color: white;
+    color: #6b6a6a;
+    width: 100%;
+}
+/*END CONTENEDOR WORLDWIDE 1*/
 
 /* CONTENEDOR WORLDWIDE 2*/
 .contenedor_worldwide2{
