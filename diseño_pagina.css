@@ -203,6 +203,10 @@
 /* FIN MENÚ DE REDES SOCIALES*/
 
 /* INICIO BOTÓN VIEW ALL PROPERTIES*/
+.Real_Estate_container-text{
+    height: 500px;
+    width: 100%;
+}
 
 .contenedor_view_all_properties{
     display: flex;
