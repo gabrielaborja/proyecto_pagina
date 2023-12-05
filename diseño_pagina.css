@@ -83,7 +83,7 @@
 /* END NAV_BAR*/
 
 /* INICIO IMAGEN DE FONDO PRINCIPAL*/
-.Real_Estate_section{
+/*.Real_Estate_section{
     height: 1040px;
     width: 100%;
     display: flex;
@@ -350,7 +350,7 @@ input[type="text"]::placeholder{
     width: 450px;
     margin-left: 30px;
 }
-/* CONTENEDOR Y BOTONES WORLDWIDE 1*/
+/* FIN CONTENEDOR Y BOTONES WORLDWIDE 1*/
 
 /* INICIO GALERIA WORLDWIDE 1*/
 .contenedor_principal1{
