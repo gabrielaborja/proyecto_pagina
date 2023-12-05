@@ -84,9 +84,7 @@
 /* END NAV_BAR*/
 
 /* INICIO IMAGEN DE FONDO PRINCIPAL*/
-.imagen_fondo{
 
-}
 .Real_Estate_section .Real_Estate_container-text h1{
     color: black;
     font-family:'Times New Roman', Times, serif;
@@ -105,6 +103,10 @@
     font-weight: 500;
     line-height: 70px;
     margin-left: 15px ;
+}
+.Real_Estate_container-text{
+    height: 400px;
+    width: 100%;
 }
 
 /*.Real_Estate_section {
@@ -173,7 +175,7 @@
     position: fixed;
     z-index: 999;
     left: 20px;
-    height: 50%;
+    height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
