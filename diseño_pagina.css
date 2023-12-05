@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: row;
     /*justify-content: space-between;*/
+    
 }
 .logo{
     width: 200px;
@@ -40,7 +41,7 @@
 .login_barra{
     height: fit-content;
     text-decoration: none;
-    color: #7E7E7E;
+    color: black;
     font-size: 15px;
     margin-right: 0px;
     margin-left: 5px;
@@ -50,14 +51,14 @@
 .sign-up_barra{
     height: fit-content;
     text-decoration: none;
-    color: #FFF;
+    color: white;
     font-size: 15px;
     padding-left:10px;
 }
 .ESP_barra{
     height: fit-content;
     text-decoration: none;
-    color: #7E7E7E;
+    color: #080808;
     font-size: 15px;
     margin-left:45px;
 }
@@ -93,9 +94,10 @@
     font-style: normal;
     font-weight: 500;
     line-height: 45px;
+    margin-top: 200px;
 }
-.Real_Estate_section .Real_Estate_container-text p{
-    color: black;
+.Real_Estate_section .Real_Estate_container-text .lux{
+    color: white;
     font-family:'Times New Roman', Times, serif;
     font-size: 30px;
     font-style: normal;
@@ -207,6 +209,7 @@
     height: 500px;
     width: 100%;
 }
+
 
 .contenedor_view_all_properties{
     display: flex;
