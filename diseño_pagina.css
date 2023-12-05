@@ -217,7 +217,7 @@
     background-color: transparent;
     height: 100%;
     width: 100%;
-    border: #FFF solid 1px;
+    border: black solid 1px;
     border-radius: 50px;
 }
 .flecha{
@@ -229,7 +229,7 @@
     transform: translate(0,-50%);
 }
 .view_properties{
-    color: #FFF;
+    color: black;
     padding: 5px 20px;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
