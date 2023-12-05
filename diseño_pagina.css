@@ -83,6 +83,39 @@
 /* END NAV_BAR*/
 
 /* INICIO IMAGEN DE FONDO PRINCIPAL*/
+.imagen_fondo{
+
+}
+.Real_Estate_section .Real_Estate_container-text h1{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+}
+.Real_Estate_section .Real_Estate_container-text p{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    margin-left: 15px ;
+}
+
+/*.Real_Estate_section {
+    height: 1040px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./img/fondo_principal.png') center center / cover no-repeat; 
+    position: relative; 
+    z-index: 1;
+}*/
+
+
 
 
 /* FIN IMAGEN DE FONDO PRINCIPAL*/
@@ -228,7 +261,7 @@
     background-color: transparent;
     height: 100%;
     width: 100%;
-    border: #FFF solid 1px;
+    border: black solid 1px;
     border-radius: 30px;
 }
 .busqueda{
@@ -236,7 +269,7 @@
 }
 
 input[type="text"]::placeholder{
-    color: #FFF;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style:normal;
     font-size: 11px;
