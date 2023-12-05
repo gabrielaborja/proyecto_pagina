@@ -83,6 +83,9 @@
 /* END NAV_BAR*/
 
 /* INICIO IMAGEN DE FONDO PRINCIPAL*/
+
+
+/* FIN IMAGEN DE FONDO PRINCIPAL*/
 /*.Real_Estate_section{
     height: 1040px;
     width: 100%;
@@ -125,13 +128,7 @@
     line-height: 70px;
     margin-left: 15px ;
 }
-.Real_Estate_section .lineas_horizontales_contenedor{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    
-}
+
 
 /* FIN IMAGEN DE FONDO PRINCIPAL*/
 
