@@ -180,8 +180,8 @@
     flex-direction: column;
     align-items: center;
     gap:15px;
-    margin-top: 50px;
-    margin-bottom: 150px;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 150px;*/
 }
 
 .redes_sociales_vertical p{
@@ -204,6 +204,8 @@
     line-height: 1px;
     margin-top: 15px;
 }
+
+
 
 /* FIN MENÚ DE REDES SOCIALES*/
 
